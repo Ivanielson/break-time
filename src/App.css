@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-image: url('./img/sr-walter.jpg');
+  background-size: cover;
+  height: 100vh;
+  color: #036B52;
+}
+
+@font-face {
+  font-family: break-time;
+  src: url(./fonts/Heart\ Breaking\ Bad.otf);
+}
+
+@font-face {
+  font-family: time-digital;
+  src: url(./fonts/DS-DIGIB.TTF);
+}
+
+.break-time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 6%;
+  font-family: break-time;
+  font-size: 8rem;
+  line-height: 75%;
+}
+
+.title-break {
+  width: min-content;
+  height: min-content;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding: 0;
+}
+
+
+.title-time {
+  width: min-content;
+  height: min-content;
+  margin-left: 10%;
+  padding: 0;
+}
+
+.input-time {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  width: 25%;
+  margin-left: 12%;
+}
+
+.digital-time {
+  font-family: time-digital;
+  font-size: 4vh;
+  width: max-content;
+}
+
+.time {
+  margin-left: 5%;
+  font-size: 11vh;
+}
