@@ -35,10 +35,10 @@ class InputTime extends React.Component {
   }
 }
 
+export default InputTime;
+
 InputTime.propTypes = {
   minutes: PropTypes.number.isRequired,
   seconds: PropTypes.number.isRequired,
   handleChage: PropTypes.func.isRequired,
 };
-
-export default InputTime;
